@@ -9,8 +9,10 @@ export default function ImageViewer({ placeholderImageSource, style }) {
 
 const styles = StyleSheet.create({
   image: {
-    width: 320,  // default width
-    height: 440,  // default height
+    flex: 1,
+    width: null,
+    height: null,
+    resizeMode: 'contain',
     borderRadius: 18,
   },
 });

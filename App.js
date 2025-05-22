@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '100%',
-    paddingHorizontal: 90,
+    paddingHorizontal: 20, // Changed value
     marginTop: 20,
   },
   headerText: {
@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
   imageWithCaption: {
+    flex: 1,
     alignItems: 'center',
   },
   caption: {
